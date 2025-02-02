@@ -8,3 +8,13 @@ if (purchaseAmount > 100) {
 }
 
 console.log(`Final amount after discount: $${purchaseAmount.toFixed(2)}`);
+
+// Task 2
+let sales = [120, 85, 200, 150, 90]; // Sales figures
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i]; // Add each sale to total
+}
+
+console.log(`Total sales: $${totalSales}`);
