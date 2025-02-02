@@ -39,3 +39,14 @@ do {
 } while (responses < 3);
 
 console.log("Survey complete.");
+
+// Task 5: Employee Information
+let employee = {
+    name: "Arturo Vidal",
+    position: "Manager",
+    salary: 70000
+};
+
+for (let key in employee) { // Loop through object keys
+    console.log(`${key}: ${employee[key]}`); 
+}
