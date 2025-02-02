@@ -42,11 +42,18 @@ console.log("Survey complete.");
 
 // Task 5: Employee Information
 let employee = {
-    name: "Arturo Vidal",
-    position: "Manager",
+    name: "Arturo Vidal", // Employee name
+    position: "Manager",  // Employee position
     salary: 70000
 };
 
 for (let key in employee) { // Loop through object keys
     console.log(`${key}: ${employee[key]}`); 
+}
+
+// Task 6:Product Listings
+let products = ["Johnnie Walker", "Jack Daniels", "Macallan", "Chivas Regal"]; // Product list
+
+for (let product of products) { // Loop through products
+    console.log(`Product: ${product}`); 
 }
