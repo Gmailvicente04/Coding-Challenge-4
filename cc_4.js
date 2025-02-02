@@ -18,3 +18,14 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 console.log(`Total sales: $${totalSales}`);
+
+
+// Task 3 \: Inventory Depletion
+let stock = 7; // Initial stock
+
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; // Decrease stock
+}
+
+console.log("Stock depleted.");
