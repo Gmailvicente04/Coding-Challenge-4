@@ -77,3 +77,16 @@ let taxRate = 0.12; // Sample tax rate (12%)
 // Calculate tax and log the result using a template literal
 let tax = calculateTax(amount, taxRate);
 console.log(`Tax for $${amount} at a rate of ${taxRate * 100}% is: $${tax.toFixed(2)}`);
+
+
+// Task 9: Discount Application
+// Declare the function expression applyDiscount
+const applyDiscount = function(price, discountPercentage) {
+    return price - (price * (discountPercentage / 100)); // Calculate discounted price
+};
+
+let price = 120; // Sample price
+let discountPercentage = 19; // Sample discount percentage (19%)
+
+let discountedPrice = applyDiscount(price, discountPercentage);
+console.log(`The price after applying a ${discountPercentage}% discount is: $${discountedPrice.toFixed(2)}`);
